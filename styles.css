@@ -22,13 +22,17 @@
     background-color: var(--lm-bg);
     font-size: 13px;
     color: var(--lm-text);
-    width: 100%;
-    position: relative;
+    width: 100vw;
     height: 100vh;
+    position: relative;
+    overflow-y: scroll;
+   
   }
   
   .container {
-    width: 327px;
+    width: 90%;
+    height: 100%;
+    margin: 2rem 0;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -209,10 +213,10 @@
   }
   
   .profile-info {
-    width: 50%;
+    width: 90%;
     display: flex;
     gap: 14px;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
   }
   
